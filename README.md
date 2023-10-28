@@ -71,3 +71,8 @@ Pronto!!! Agora você tem seu ambiente de desenvolvimento PocketNukkitX. Seja fe
 
 Obrigado.
 Seja feliz, Provavelmente eu.
+
+## Dicas 
+### Meu servidor de Minecraft não está aparecendo e não consigo conectar!!! 
+Provavelmente você está usando o Minecraft UWP. E por alguma razão a M$ não permitiu que os aplicativos baseados em UWP acessem o localhost, então tu precisa rodar um comando no powershell bem especifico como administrador e reiniciar o jogo:
+`CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"`
