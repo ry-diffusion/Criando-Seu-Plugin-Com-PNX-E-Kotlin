@@ -56,4 +56,18 @@ Entre no arquivo `lib/build.gradle.kts` e logo depois vá para o bloco `plugins`
 
 
 ### Baixando e rodando o PowerNukkitX.
-*PARA FAZER*
+Parece que você conseguiu criar seu plugin básico amigo, agora é hora do quê? Sim, sacrificar quatro bodes para fazer o PNX funcionar. 
+
+Primeiramente você precisa do PNX-CLI instalado, nesse caso você pode obter-o nesse link: `https://github.com/PowerNukkitX/PNX-CLI/releases/tag/0.1.6` aí extraia a versão para o sistema operacional que vossa mercê goste. 
+
+Agora segue o MatheusFreeFireGameplaysHD4KDoublyAtmos:
+1. Crie uma pasta em algum lugar para o servidor que você ira criar jaja, por exemplo: `mkdir -p ~/Servidores/MonicaMeDaUmBeijo`.
+2. Entre na pasta do seu servidor, e logo depois execute o binário do PNX-CLI. 
+3. Espere o CLI baixar as dependências, e depois de completar, feche o servidor com `stop` e logo após pressione Enter.
+4. Tá ligado aonde tu deixou teu plugin? Então. Bote ele na pasta chamada `plugins`.
+5. Rode o PNX-CLI de novo, agora ele irá iniciar o servidor e provavelmente você irá ver alguma mensagem como `Olá mundo`
+
+Pronto!!! Agora você tem seu ambiente de desenvolvimento PocketNukkitX. Seja feliz e sacrifique um bode nesse exato momento, ou se não você irá ser procurado pela CIA/FBI ou até mesmo a NASA.
+
+Obrigado.
+Seja feliz, Provavelmente eu.
